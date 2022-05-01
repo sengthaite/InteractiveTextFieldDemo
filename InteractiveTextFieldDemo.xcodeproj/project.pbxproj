@@ -13,6 +13,7 @@
 		4976DD82281E4DB800F6809A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4976DD80281E4DB800F6809A /* Main.storyboard */; };
 		4976DD84281E4DBD00F6809A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4976DD83281E4DBD00F6809A /* Assets.xcassets */; };
 		4976DD87281E4DBD00F6809A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4976DD85281E4DBD00F6809A /* LaunchScreen.storyboard */; };
+		4976DD92281E4ED900F6809A /* InteractiveTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 4976DD91281E4ED900F6809A /* InteractiveTextField */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4976DD83281E4DBD00F6809A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4976DD86281E4DBD00F6809A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4976DD88281E4DBD00F6809A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4976DD8F281E4DDC00F6809A /* InteractiveTextField */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = InteractiveTextField; path = ../Learning/InteractiveTextField; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4976DD92281E4ED900F6809A /* InteractiveTextField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +43,10 @@
 		4976DD6E281E4DB800F6809A = {
 			isa = PBXGroup;
 			children = (
+				4976DD8E281E4DDC00F6809A /* Packages */,
 				4976DD79281E4DB800F6809A /* InteractiveTextFieldDemo */,
 				4976DD78281E4DB800F6809A /* Products */,
+				4976DD90281E4ED900F6809A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +72,21 @@
 			path = InteractiveTextFieldDemo;
 			sourceTree = "<group>";
 		};
+		4976DD8E281E4DDC00F6809A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4976DD8F281E4DDC00F6809A /* InteractiveTextField */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		4976DD90281E4ED900F6809A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = InteractiveTextFieldDemo;
+			packageProductDependencies = (
+				4976DD91281E4ED900F6809A /* InteractiveTextField */,
+			);
 			productName = InteractiveTextFieldDemo;
 			productReference = 4976DD77281E4DB800F6809A /* InteractiveTextFieldDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -356,6 +379,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4976DD91281E4ED900F6809A /* InteractiveTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InteractiveTextField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4976DD6F281E4DB800F6809A /* Project object */;
 }
