@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "interactivetextfield",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sengthaite/InteractiveTextField",
+      "state" : {
+        "branch" : "main",
+        "revision" : "576c5a34ac80b435c6cec60f6f6795837eaa10de"
+      }
+    }
+  ],
+  "version" : 2
+}
